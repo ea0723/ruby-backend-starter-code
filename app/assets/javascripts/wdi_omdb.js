@@ -38,7 +38,7 @@ $(document).ready(function (){
 	searchContainer.delegate('li>span.link-ish', 'click', function(e){
 		console.log('clicked ');
 		var title = e.target.id;
-		var url = 'httpsr://www.omdbapi.com/?t=' + title + '&type=movie&y=&plot=full&r=json';
+		var url = 'https://www.omdbapi.com/?t=' + title + '&type=movie&y=&plot=full&r=json';
 		console.log("individual movie is " + title);
 		console.log(url);
 		$('#clear').show();

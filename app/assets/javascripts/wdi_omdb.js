@@ -46,7 +46,7 @@ $(document).ready(function (){
 			success: function (data) {
 				console.log(data);
 				var poster = data.Poster;
-				resultsContainer.find('.title').html(data.Title + ' <i class="fa fa-heart-o" id="unfavorite"></i>');
+				resultsContainer.find('.title').html(data.Title);
 				resultsContainer.find('.year').text(data.Year);
 				resultsContainer.find('.actors').text(data.Actors);
 				resultsContainer.find('.plot').text(data.Plot);
@@ -64,16 +64,6 @@ $(document).ready(function (){
 				});
 			}
 		});
-		function Favorite(link, movie) {
-			this.link = link;
-			this.movie = movie;
-
-		}
-			resultsContainer.delegate('i > .fa-heart-o', 'click', function (e) {
-				console.log("it's one of my favs");
-				var fav = new Favorite(url, title);
-				console.log(fav);
-		})
 	});
 
 });

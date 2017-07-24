@@ -1,4 +1,4 @@
-== README
+= README
 
 Access this Movie Database application at:
 
@@ -24,16 +24,16 @@ Things you may want to cover:
 * Github Forked Repo (https://github.com/ea0723/wdi-instructor-challenge)
 * Individual Repo (for running code locally) https://github.com/ea0723/ruby-backend-starter-code
 
-*Run It Locally*
+== Run It Locally
 1. go to https://github.com/ea0723/ruby-backend-starter-code
 2. fork repo
 3. On your Mac, Open Terminal
 4. Using cd <directory_name> Go to a project folder (where <directory_name> is the name of the folder in which you want to place the code)
 5. Type the following: (the $ is a prompt, don't type it)
-	$ git clone https://github.com/ea0723/ruby-backend-starter-code
-	$ bundle install
-	$ rake db:migrate
-	$ rails s
-6. In your web browser, go to localhost:3000
+    $ git clone https://github.com/ea0723/ruby-backend-starter-code
+    $ bundle install
+    $ rake db:migrate
+    $ rails s
+6. In your web browser, go to http://localhost:3000
 
 Have fun!
